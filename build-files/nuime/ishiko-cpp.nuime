@@ -8,13 +8,23 @@
         <url>https://github.com/ishiko-cpp/base-platform/build-files/nuime/base-platform.nuime</url>
       </location>
     </subproject>
-    <subproject><name>collections</name></subproject>
+    <subproject>
+      <name>collections</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/collections/build-files/nuime/collections.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>color</name></subproject>
     <subproject><name>concurrency</name></subproject>
     <subproject><name>configuration</name></subproject>
     <subproject><name>crypto</name></subproject>
     <subproject><name>csv</name></subproject>
-    <subproject><name>data-structures</name></subproject>
+    <subproject>
+      <name>data-structures</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/data-structures/build-files/nuime/data-structures.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>diff</name></subproject>
     <subproject>
       <name>errors</name>
@@ -50,11 +60,21 @@
     <subproject><name>pdf</name></subproject>
     <subproject><name>process</name></subproject>
     <subproject><name>rest</name></subproject>
-    <subproject><name>synchronization</name></subproject>
+    <subproject>
+      <name>synchronization</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/synchronization/build-files/nuime/synchronization.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>terminal</name></subproject>
     <subproject><name>test-framework-core</name></subproject>
     <subproject><name>test-framework</name></subproject>
-    <subproject><name>text</name></subproject>
+    <subproject>
+      <name>text</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/text/build-files/nuime/text.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>time</name></subproject>
     <subproject>
       <name>types</name>
