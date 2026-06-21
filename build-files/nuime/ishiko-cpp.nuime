@@ -3,127 +3,129 @@
   <name>ishiko-cpp</name>
   <subprojects>
     <subproject>
-      <name>base-platform</name>
+      <name>IshikoBasePlatform</name>
       <location>
-        <url>https://github.com/ishiko-cpp/base-platform/build-files/nuime/base-platform.nuime</url>
+        <url>https://github.com/ishiko-cpp/base-platform/build-files/nuime/IshikoBasePlatform.nuime</url>
       </location>
     </subproject>
     <subproject>
-      <name>collections</name>
+      <name>IshikoCollections</name>
       <location>
-        <url>https://github.com/ishiko-cpp/collections/build-files/nuime/collections.nuime</url>
-      </location>
-    </subproject>
-    <subproject><name>color</name></subproject>
-    <subproject>
-      <name>concurrency</name>
-      <location>
-        <url>https://github.com/ishiko-cpp/concurrency/build-files/nuime/concurrency.nuime</url>
-      </location>
-    </subproject>
-    <subproject><name>configuration</name></subproject>
-    <subproject><name>crypto</name></subproject>
-    <subproject><name>csv</name></subproject>
-    <subproject>
-      <name>data-structures</name>
-      <location>
-        <url>https://github.com/ishiko-cpp/data-structures/build-files/nuime/data-structures.nuime</url>
-      </location>
-    </subproject>
-    <subproject><name>diff</name></subproject>
-    <subproject>
-      <name>errors</name>
-      <location>
-        <url>https://github.com/ishiko-cpp/errors/build-files/nuime/errors.nuime</url>
+        <url>https://github.com/ishiko-cpp/collections/build-files/nuime/IshikoCollections.nuime</url>
       </location>
     </subproject>
     <subproject>
-      <name>filesystem</name>
+      <name>IshikoConcurrency</name>
       <location>
-        <url>https://github.com/ishiko-cpp/filesystem/build-files/nuime/filesystem.nuime</url>
+        <url>https://github.com/ishiko-cpp/concurrency/build-files/nuime/IshikoConcurrency.nuime</url>
       </location>
     </subproject>
     <subproject>
-      <name>hash</name>
+      <name>IshikoConfiguration</name>
       <location>
-        <url>https://github.com/ishiko-cpp/hash/build-files/nuime/hash.nuime</url>
-      </location>
-    </subproject>
-    <subproject><name>http</name></subproject>
-    <subproject>
-      <name>io</name>
-      <location>
-        <url>https://github.com/ishiko-cpp/io/build-files/nuime/io.nuime</url>
+        <url>https://github.com/ishiko-cpp/configuration/build-files/nuime/IshikoConfiguration.nuime</url>
       </location>
     </subproject>
     <subproject>
-      <name>json</name>
+      <name>IshikoDataStructures</name>
       <location>
-        <url>https://github.com/ishiko-cpp/json/build-files/nuime/json.nuime</url>
+        <url>https://github.com/ishiko-cpp/data-structures/build-files/nuime/IshikoDataStructures.nuime</url>
       </location>
     </subproject>
     <subproject>
-      <name>logging</name>
+      <name>IshikoDiff</name>
       <location>
-        <url>https://github.com/ishiko-cpp/logging/build-files/nuime/logging.nuime</url>
-      </location>
-    </subproject>
-    <subproject><name>math</name></subproject>
-    <subproject>
-      <name>memory</name>
-      <location>
-        <url>https://github.com/ishiko-cpp/memory/build-files/nuime/memory.nuime</url>
-      </location>
-    </subproject>
-    <subproject><name>metrics</name></subproject>
-    <subproject><name>networking</name></subproject>
-    <subproject><name>pdf</name></subproject>
-    <subproject>
-      <name>process</name>
-      <location>
-        <url>https://github.com/ishiko-cpp/process/build-files/nuime/process.nuime</url>
-      </location>
-    </subproject>
-    <subproject><name>rest</name></subproject>
-    <subproject>
-      <name>synchronization</name>
-      <location>
-        <url>https://github.com/ishiko-cpp/synchronization/build-files/nuime/synchronization.nuime</url>
-      </location>
-    </subproject>
-    <subproject><name>terminal</name></subproject>
-    <subproject><name>test-framework-core</name></subproject>
-    <subproject><name>test-framework</name></subproject>
-    <subproject>
-      <name>text</name>
-      <location>
-        <url>https://github.com/ishiko-cpp/text/build-files/nuime/text.nuime</url>
+        <url>https://github.com/ishiko-cpp/diff/build-files/nuime/IshikoDiff.nuime</url>
       </location>
     </subproject>
     <subproject>
-      <name>time</name>
+      <name>IshikoErrors</name>
       <location>
-        <url>https://github.com/ishiko-cpp/time/build-files/nuime/time.nuime</url>
+        <url>https://github.com/ishiko-cpp/errors/build-files/nuime/IshikoErrors.nuime</url>
       </location>
     </subproject>
     <subproject>
-      <name>types</name>
+      <name>IshikoFileSystem</name>
       <location>
-        <url>https://github.com/ishiko-cpp/types/build-files/nuime/types.nuime</url>
-      </location>
-    </subproject>
-    <subproject><name>uuids</name></subproject>
-    <subproject><name>workflows</name></subproject>
-    <subproject>
-      <name>xml</name>
-      <location>
-        <url>https://github.com/ishiko-cpp/xml/build-files/nuime/xml.nuime</url>
+        <url>https://github.com/ishiko-cpp/filesystem/build-files/nuime/IshikoFileSystem.nuime</url>
       </location>
     </subproject>
     <subproject>
-      <name>yaml</name>
+      <name>IshikoHash</name>
       <location>
-        <url>https://github.com/ishiko-cpp/yaml/build-files/nuime/yaml.nuime</url>
+        <url>https://github.com/ishiko-cpp/hash/build-files/nuime/IshikoHash.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoIO</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/io/build-files/nuime/IshikoIO.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoJSON</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/json/build-files/nuime/IshikoJSON.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoLogging</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/logging/build-files/nuime/IshikoLogging.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoMemory</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/memory/build-files/nuime/IshikoMemory.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoProcess</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/process/build-files/nuime/IshikoProcess.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoSynchronization</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/synchronization/build-files/nuime/IshikoSynchronization.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoTestFramework</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/test-framework/build-files/nuime/IshikoTestFramework.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoText</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/text/build-files/nuime/IshikoText.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoTime</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/time/build-files/nuime/IshikoTime.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoTypes</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/types/build-files/nuime/IshikoTypes.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoXML</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/xml/build-files/nuime/IshikoXML.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>IshikoYAML</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/yaml/build-files/nuime/IshikoYAML.nuime</url>
       </location>
     </subproject>
   </subprojects>
