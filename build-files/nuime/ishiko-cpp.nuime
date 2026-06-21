@@ -37,7 +37,12 @@
         <url>https://github.com/ishiko-cpp/errors/build-files/nuime/errors.nuime</url>
       </location>
     </subproject>
-    <subproject><name>filesystem</name></subproject>
+    <subproject>
+      <name>filesystem</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/filesystem/build-files/nuime/filesystem.nuime</url>
+      </location>
+    </subproject>
     <subproject>
       <name>hash</name>
       <location>
@@ -51,7 +56,12 @@
         <url>https://github.com/ishiko-cpp/io/build-files/nuime/io.nuime</url>
       </location>
     </subproject>
-    <subproject><name>json</name></subproject>
+    <subproject>
+      <name>json</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/json/build-files/nuime/json.nuime</url>
+      </location>
+    </subproject>
     <subproject>
       <name>logging</name>
       <location>
@@ -104,7 +114,17 @@
     </subproject>
     <subproject><name>uuids</name></subproject>
     <subproject><name>workflows</name></subproject>
-    <subproject><name>xml</name></subproject>
-    <subproject><name>yaml</name></subproject>
+    <subproject>
+      <name>xml</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/xml/build-files/nuime/xml.nuime</url>
+      </location>
+    </subproject>
+    <subproject>
+      <name>yaml</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/yaml/build-files/nuime/yaml.nuime</url>
+      </location>
+    </subproject>
   </subprojects>
 </project>
