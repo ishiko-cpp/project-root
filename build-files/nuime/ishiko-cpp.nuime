@@ -15,7 +15,12 @@
       </location>
     </subproject>
     <subproject><name>color</name></subproject>
-    <subproject><name>concurrency</name></subproject>
+    <subproject>
+      <name>concurrency</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/concurrency/build-files/nuime/concurrency.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>configuration</name></subproject>
     <subproject><name>crypto</name></subproject>
     <subproject><name>csv</name></subproject>
@@ -40,7 +45,12 @@
       </location>
     </subproject>
     <subproject><name>http</name></subproject>
-    <subproject><name>io</name></subproject>
+    <subproject>
+      <name>io</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/io/build-files/nuime/io.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>json</name></subproject>
     <subproject>
       <name>logging</name>
@@ -58,7 +68,12 @@
     <subproject><name>metrics</name></subproject>
     <subproject><name>networking</name></subproject>
     <subproject><name>pdf</name></subproject>
-    <subproject><name>process</name></subproject>
+    <subproject>
+      <name>process</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/process/build-files/nuime/process.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>rest</name></subproject>
     <subproject>
       <name>synchronization</name>
@@ -75,7 +90,12 @@
         <url>https://github.com/ishiko-cpp/text/build-files/nuime/text.nuime</url>
       </location>
     </subproject>
-    <subproject><name>time</name></subproject>
+    <subproject>
+      <name>time</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/time/build-files/nuime/time.nuime</url>
+      </location>
+    </subproject>
     <subproject>
       <name>types</name>
       <location>
