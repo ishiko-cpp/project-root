@@ -23,13 +23,28 @@
       </location>
     </subproject>
     <subproject><name>filesystem</name></subproject>
-    <subproject><name>hash</name></subproject>
+    <subproject>
+      <name>hash</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/hash/build-files/nuime/hash.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>http</name></subproject>
     <subproject><name>io</name></subproject>
     <subproject><name>json</name></subproject>
-    <subproject><name>logging</name></subproject>
+    <subproject>
+      <name>logging</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/logging/build-files/nuime/logging.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>math</name></subproject>
-    <subproject><name>memory</name></subproject>
+    <subproject>
+      <name>memory</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/memory/build-files/nuime/memory.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>metrics</name></subproject>
     <subproject><name>networking</name></subproject>
     <subproject><name>pdf</name></subproject>
@@ -41,7 +56,12 @@
     <subproject><name>test-framework</name></subproject>
     <subproject><name>text</name></subproject>
     <subproject><name>time</name></subproject>
-    <subproject><name>types</name></subproject>
+    <subproject>
+      <name>types</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/types/build-files/nuime/types.nuime</url>
+      </location>
+    </subproject>
     <subproject><name>uuids</name></subproject>
     <subproject><name>workflows</name></subproject>
     <subproject><name>xml</name></subproject>
