@@ -1,37 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="https://nuime.org/schema/core/1" name="ishiko-cpp">
-  <target name="base-platform"/>
-  <target name="collections"/>
-  <target name="color"/>
-  <target name="concurrency"/>
-  <target name="configuration"/>
-  <target name="crypto"/>
-  <target name="csv"/>
-  <target name="data-structures"/>
-  <target name="diff"/>
-  <target name="errors"/>
-  <target name="filesystem"/>
-  <target name="hash"/>
-  <target name="http"/>
-  <target name="io"/>
-  <target name="json"/>
-  <target name="logging"/>
-  <target name="math"/>
-  <target name="memory"/>
-  <target name="metrics"/>
-  <target name="networking"/>
-  <target name="pdf"/>
-  <target name="process"/>
-  <target name="rest"/>
-  <target name="synchronization"/>
-  <target name="terminal"/>
-  <target name="test-framework-core"/>
-  <target name="test-framework"/>
-  <target name="text"/>
-  <target name="time"/>
-  <target name="types"/>
-  <target name="uuids"/>
-  <target name="workflows"/>
-  <target name="xml"/>
-  <target name="yaml"/>
+<project xmlns="https://nuime.org/schema/core/1">
+  <name>ishiko-cpp</name>
+  <subprojects>
+    <subproject>
+      <name>base-platform</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/base-platform/build-files/nuime/base-platform.nuime</url>
+      </location>
+    </subproject>
+    <subproject><name>collections</name></subproject>
+    <subproject><name>color</name></subproject>
+    <subproject><name>concurrency</name></subproject>
+    <subproject><name>configuration</name></subproject>
+    <subproject><name>crypto</name></subproject>
+    <subproject><name>csv</name></subproject>
+    <subproject><name>data-structures</name></subproject>
+    <subproject><name>diff</name></subproject>
+    <subproject>
+      <name>errors</name>
+      <location>
+        <url>https://github.com/ishiko-cpp/errors/build-files/nuime/errors.nuime</url>
+      </location>
+    </subproject>
+    <subproject><name>filesystem</name></subproject>
+    <subproject><name>hash</name></subproject>
+    <subproject><name>http</name></subproject>
+    <subproject><name>io</name></subproject>
+    <subproject><name>json</name></subproject>
+    <subproject><name>logging</name></subproject>
+    <subproject><name>math</name></subproject>
+    <subproject><name>memory</name></subproject>
+    <subproject><name>metrics</name></subproject>
+    <subproject><name>networking</name></subproject>
+    <subproject><name>pdf</name></subproject>
+    <subproject><name>process</name></subproject>
+    <subproject><name>rest</name></subproject>
+    <subproject><name>synchronization</name></subproject>
+    <subproject><name>terminal</name></subproject>
+    <subproject><name>test-framework-core</name></subproject>
+    <subproject><name>test-framework</name></subproject>
+    <subproject><name>text</name></subproject>
+    <subproject><name>time</name></subproject>
+    <subproject><name>types</name></subproject>
+    <subproject><name>uuids</name></subproject>
+    <subproject><name>workflows</name></subproject>
+    <subproject><name>xml</name></subproject>
+    <subproject><name>yaml</name></subproject>
+  </subprojects>
 </project>
