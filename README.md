@@ -238,6 +238,7 @@ The following build order can be used to build the projects from scratch:
 1. XML (without the test code)
 1. JSON (without the test code)
 1. YAML (without the test code)
+1. TidyYAML (without the test code)
 1. Diff (without the test code)
 1. Configuration (without the test code)
 1. TestFramework/Core
