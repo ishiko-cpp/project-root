@@ -117,6 +117,10 @@ This repository contains the project documentation.
 
    [![ishiko-cpp](https://circleci.com/gh/ishiko-cpp/text.svg?style=shield)](https://circleci.com/gh/ishiko-cpp/text)
 
+1. [TidyYAML](https://github.com/ishiko-cpp/tidy-yaml): TidyYAML.
+
+   [![ishiko-cpp](https://circleci.com/gh/ishiko-cpp/tidy-yaml.svg?style=shield)](https://circleci.com/gh/ishiko-cpp/tidy-yaml)
+
 1. [Time](https://github.com/ishiko-cpp/time): basic classes to represent time.
 
    [![ishiko-cpp](https://circleci.com/gh/ishiko-cpp/time.svg?style=shield)](https://circleci.com/gh/ishiko-cpp/time)
@@ -255,6 +259,7 @@ The following build order can be used to build the projects from scratch:
 1. XML (now with the test code)
 1. JSON (now with the test code)
 1. YAML (now with the test code)
+1. TidyYAML (now with the test code)
 1. Diff (now with the test code)
 1. Configuration (now with the test code)
 1. TestFramework
