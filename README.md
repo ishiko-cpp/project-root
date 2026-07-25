@@ -231,7 +231,7 @@ cmake --install . --config=Release
 ```
 
 This installs the libraries in the lib folder at the root of the repo. The last step is to rename the files to adopt
-the Boost naming convention: fmt-d-x64.lib.
+the Boost naming convention: yaml-cpp-d-x64.lib.
 
 ### Installing the Ishiko/C++ libraries
 
