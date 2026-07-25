@@ -147,12 +147,13 @@ This repository contains the project documentation.
 
 ### Third-party dependencies/forks
 
-- [Botan](https://github.com/ishiko-cpp/botan): Botan is a C++ cryptography library.
-- [fmt](https://github.com/ishiko-cpp/fmtlib_fmt): {fmt} is an open-source formatting library providing a fast and safe
+- [Botan](https://github.com/ishiko-third-party/randombit_botan): Botan is a C++ cryptography library.
+- [fmt](https://github.com/ishiko-third-party/fmtlib_fmt): {fmt} is an open-source formatting library providing a fast and safe
   alternative to C stdio and C++ iostreams.
-- [mstch](https://github.com/ishiko-cpp/no1msd_mstch): mstch is a complete implementation of {{mustache}} templates
+- [mstch](https://github.com/ishiko-third-party/no1msd_mstch): mstch is a complete implementation of {{mustache}} templates
   using modern C++.
-- [pugixml](https://github.com/ishiko-cpp/pugixml): Light-weight, simple and fast XML parser for C++ with XPath support
+- [pugixml](https://github.com/ishiko-third-party/pugixml): Light-weight, simple and fast XML parser for C++ with XPath support
+- [yaml-cpp](https://github.com/ishiko-third-party/jbeder_yaml-cpp): A YAML parser and emitter in C++ matching the YAML 1.2 spec.
 
 
 ## Installation
